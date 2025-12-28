@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "magicq-macro-editor"
+version = "0.0.0"
+description = ""
+authors = ["mnb3000 <misha.mykolyshyn@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+customtkinter = "^5.2.2"
+tk = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
