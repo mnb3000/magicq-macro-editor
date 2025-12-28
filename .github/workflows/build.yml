@@ -47,7 +47,7 @@ jobs:
           key: venv-${{ hashFiles('poetry.lock') }}
 
       - name: Install the project dependencies
-        run: poetry install
+        run: poetry install --no-root
 
       - name: Python GUI With TkInter
         uses: Nuitka/Nuitka-Action@main
